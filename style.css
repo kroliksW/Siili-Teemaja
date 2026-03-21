@@ -242,10 +242,9 @@ margin-top:65px;
 border-radius:10px;
 
 }
-/* Картинка мастабируется по отношению к родительскому элементу */
 .slider .slider-item img {
-	width: 100%;       /* Картинка занимает всю ширину слайдера */
-    object-fit: cover; /* Сохраняет пропорции, не искажая качество */
+	width: 100%;
+    object-fit: cover;
 }
 .slider .prev, .slider .next {
 cursor: pointer;
@@ -268,25 +267,20 @@ border-radius: 3px 0 0 3px;
 .slider .prev{
 } 
 
-/* При наведении на кнопки добавляем фон кнопок */
 .slider .prev:hover,
 .slider .next:hover {
 background-color: rgba(0, 0, 0, 0.8);
 }
-/* Заголовок слайда */
 .slideText {
 position: absolute;
 color: #fff;
 font-size: 35px;
-/* Выравнивание текста по горизонтали и по вертикали*/
 left: 50%;
 top: 50%;
 transform: translate(-50%, -50%);
-/* Тень*/
 text-shadow: 1px 1px 1px #000, 0 0 1em #000;
 }
 
-/* Анимация слайдов */
 .slider .slider-item {
 -webkit-animation-name: fade;
 -webkit-animation-duration: 1.5s;
